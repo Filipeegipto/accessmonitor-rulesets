@@ -13,7 +13,7 @@ dis: "43353",
 result: "passed"
 ---
 
-# APermmitted RIA State and Property Check
+# Permmitted ARIA State and Property Check
 
 ## Description
 
