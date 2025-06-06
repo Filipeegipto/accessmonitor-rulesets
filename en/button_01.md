@@ -25,7 +25,7 @@ I noticed that <mark>all</mark> <code>&lt;button&gt;</code> elements have access
 
 ## Impact
 
-- **Visual Impairments:** A button with no label might be announced as simply "button," "unlabeled button," or not announced at all. This makes it impossible to know what the button does (e.g., "Submit", "Close", "Next Page"), making navigation frustrating or impossible.
+- **Visual Impairments:** A button with no label might be announced as simply "button", "unlabeled button" or not announced at all. This makes it impossible to know what the button does (e.g., "Submit", "Close", "Next Page"), making navigation frustrating or impossible.
 - **Motor Impairments:** Voice commands depend on element names like “Click Submit” or “Press Save.” Buttons without names can’t be targeted or activated by voice.
 - **Cogntive Impairments:** If there's no visible label or the button is represented by an icon without accessible text, the function might be unclear. This increases confusion and reduces trust in the interface.
 
