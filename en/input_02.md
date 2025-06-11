@@ -17,7 +17,7 @@ result: "warning"
 
 ## Description
 
-The "Missing Form Control Accessible Name Check" evaluates whether 
+The "Missing Form Control Accessible Name Check" evaluates whether all form controls on the page have an accessible name.
 
 ## Example outcome
 
