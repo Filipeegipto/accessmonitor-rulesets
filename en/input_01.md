@@ -35,7 +35,7 @@ To address form control elements missing a <code>&lt;label&gt;</code> and a <cod
 
 1. Locate the form control element.
 2. Add, if possible, a <code>&lt;label&gt;</code> element and properly associate it with the <code>&lt;input&gt;</code> element using the <code>for</code> attribute.
-3. If you don't want to have a visible lable, use the <code>title</code> attribute in the <code>&lt;input&gt;</code> element, providing a meaningful title.
+3. If you don't want to have a visible label, use the <code>title</code> attribute in the <code>&lt;input&gt;</code> element, providing a meaningful title.
 
 ## Resources
 
