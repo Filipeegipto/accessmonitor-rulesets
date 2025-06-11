@@ -17,7 +17,7 @@ result: "failed"
 
 ## Description
 
-The "Inappropriate Page Language Check" evaluates whether the the primary language of the webpage is correctly identified using the <code>lang</code> attribute on the <code>&lt;html&gt;</code> element. 
+The "Inappropriate Page Language Check" evaluates whether the primary language of the webpage is correctly identified using the <code>lang</code> attribute on the <code>&lt;html&gt;</code> element. 
 
 ## Example outcome
 
