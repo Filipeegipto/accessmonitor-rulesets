@@ -17,7 +17,7 @@ result: "failed"
 
 ## Description
 
-The "Missing Data Table Caption Check" evaluates whether there is any  data table withou a <code>&lt;caption&gt;</code> element to describe the purpose or content of the table.
+The "Missing Data Table Caption Check" evaluates whether there is any data table withou a <code>&lt;caption&gt;</code> element to describe the purpose or content of the table.
 
 ## Example outcome
 
