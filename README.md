@@ -3,8 +3,172 @@ RuleSets of AccessMonitor - the validator of web accessibility practices
 
 Tests
 
+- [Skip Navigation Links Check](en/a_01a).
+- [Innapropriate Skip Navigation Links Check](en/a_01b)
+- [Missing Skip Navigation Links Check](en/a_02a)
+- [Multiple Skip Navigation Links Check](en/a_02b)
+- [Missing Image Link Alternative Text Check](en/a_03)
+- [Missing Site Searches, Indexes, and Site Maps Check](en/a_04).
+- [Inadequate Link Title Check](en/a_05)
+- [Inadequate Adjacent Links Check](en/a_06)
+- [Inadequate Identical Links Check](en/a_09)
+- [Links Accessible Name Check](en/a_10)
+- [Missing Links Accessible Name Check](en/a_11).
+- [Identical Links - Equal Destination Check](en/a_12)
+- [Inadequate Identical Links - Equal Destination Check](en/a_13)
+- [Missing Abbreviation Extension Check](en/abbr_01)
+- [Alternative Text In Image Maps' Area Elements Check](en/area_01a)
+- [Inadequate Alternative Text In Image Maps' Area Elements Check](en/area_01b).
+- [ARIA Role Check](en/aria_01)
+- [ARIA Required Owned Elements Check](en/aria_02)
+- [ARIA State and Property Value Check](en/aria_03)
+- [Inappropriate ARIA State and Property Value Check](en/aria_04)
+- [Permmitted ARIA State and Property Check](en/aria_05).
+- [Not Permmitted ARIA State and Property Check](en/aria_06)
+- [ARIA Attributes Check](en/aria_07)
+- [Inappropriate ARIA Attributes Check](en/aria_08)
+- [Non Automatic Audio Content Check](en/audio_video_01)
+- [Automatic Audio Content Check](en/audio_video_02).
+- [Autocomplete Attribute Check](en/autocomplete_01)
+- [Inappropriate Autocomplete Attribute Check](en/autocomplete_02)
+- [Blinking Content Check](en/blink_02)
+- [Inappropriate Structural Grouping Check](en/br_01)
+- [Button Accessible Name Check](en/button_01).
+- [Missing Button Accessible Name Check](en/button_02)
+- [CSS Font And Background Color Check](en/color_01)
+- [Inappropriate Text-Background Contrast Check](en/color_02)
+- [Inappropriate Line Height Check](en/css_01)
+- [Inappropriate Zoomed Text Visibility Check](en/css_02).
+- [Missing Redundant Event Handlers Check](en/ehandler_02)
+- [Redundant Event Handlers Check](en/ehandler_03)
+- [Inappropriate Event Handlers Check](en/ehandler_04)
+- [Sequential Focus Order Check](en/element_01)
+- [ARIA Hidden Focusable Content Check](en/element_02).
+- [Inappropriately ARIA Hidden Focusable Content Check](en/element_03)
+- [Hidden Decorative Elements Check](en/element_04)
+- [Inappropriately Unhidden Decorative Elements Check](en/element_05)
+- [Language Attribute Check](en/element_06)
+- [Inappropriate Language Attribute Check](en/element_07).
+- [Presentational Role Check](en/element_08)
+- [Inappropriate Presentational Role Check](en/element_09)
+- [ARIA Role Completeness Check](en/element_10)
+- [Missing Fieldset Description Check](en/field_01)
+- [Inappropriate Fieldset Element Check](en/field_02).
+- [Inappropriate Focus Blur Check](en/focus_01)
+- [Inappropriate HTML Text Formatting Check](en/font_01)
+- [Inappropriate Font Size Check](en/font_02)
+- [Form Submit Button Check](en/form_01a)
+- [Missing Form Submit Button Check](en/form_01b).
+- [Inappropriate or Missing Frame Title](en/frame_01)
+- [Headers Attribute Check](en/headers_01)
+- [Inappropriate Headers Attribute Check](en/headers_02)
+- [Heading Accessible Name Check](en/heading_01)
+- [Missing Heading Accessible Name Check](en/heading_02).
+- [H1 Check](en/heading_03)
+- [Inappropriate H1 Check](en/heading_04)
+- [Missing Headings Check](en/hx_01a)
+- [Inappropriate Headings Check](en/hx_01b)
+- [Missing Main Heading Check](en/hx_01c).
+- [Inappropriate Heading Content Check](en/hx_02)
+- [Inappropriate Heading Hierarchy Check](en/hx_03)
+- [Id Attributes Check](en/id_01)
+- [Inappropriate Id Attributes Check](en/id_02)
+- [Missing Iframe Title Check](en/iframe_01).
+- [Iframe Elements With Equal Accessible Name Check](en/iframe_02)
+- [Inappropriate Iframe Elements With Equal Accessible Name Check](en/iframe_03)
+- [Iframe Negative Tabindex Attribute Check](en/iframe_04)
+- [Inappropriate Iframe Negative Tabindex Attribute Check](en/iframe_05)
 - [Alternative Text Check](en/img_01a).
 - [Missing Alternative Text Check](en/img_01b)
 - [Decorative Image Check](en/img_02)
 - [Inappropriate Alternative Text Check](en/img_03)
 - [Alt Text Length Check](en/img_04)
+- [Graphic Button Alt Text Check](en/inp_img_01a).
+- [Missing Graphic Button Alt Text Check](en/inp_img_01b)
+- [Missing Form Control Label and Title Check](en/input_01)
+- [Missing Form Control Accessible Name Check](en/input_02)
+- [Form Control Accessible Name Check](en/input_02b)
+- [Inappropriate Alt Text on Input Element Check](en/input_03).
+- [Inappropriate HTML Justified Text Check](en/justif_txt_01)
+- [Inappropriate CSS Justified Text Check](en/justif_txt_02)
+- [Accessible Name Matches Visible Label Check](en/label_01)
+- [Inappropriate Label Element Check](en/label_02)
+- [Accessible Name Mismatches Visible Label Check](en/label_03).
+- [Banner Landmark Check](en/landmark_01)
+- [Inappropriate Banner Landmark Check](en/landmark_02)
+- [Complementary Landmarks Check](en/landmark_03)
+- [Inappropriate Complementary Landmarks Check](en/landmark_04)
+- [Contentinfo Landmark Check](en/landmark_05).
+- [Inappropriate Contentinfo Landmark Check](en/landmark_06)
+- [Main Landmark Check](en/landmark_07)
+- [Inappropriate Main Landmark Check](en/landmark_08)
+- [Singular Banner Landmark Check](en/landmark_09)
+- [Duplicate Banner Landmark Check](en/landmark_10).
+- [Singular Contentinfo Landmark Check](en/landmark_11)
+- [Duplicate Contentinfo Landmark Check](en/landmark_12)
+- [Singular Main Landmark Check](en/landmark_13)
+- [Duplicate Main Landmark Check](en/landmark_14)
+- [Page Language Check](en/lang_01).
+- [Inappropriate Page Language Check](en/lang_02)
+- [Missing Page Language Check](en/lang_03)
+- [Incorrect Page Language Check](en/lang_04)
+- [Obselete Elements For Visual Presentation Check](en/layout_01a)
+- [Inappropriate Obselete Elements For Visual Presentation Check](en/layout_01b).
+- [Inappropriate Measurement Unit Check](en/layout_03)
+- [Letter Spacing Check](en/letter_01)
+- [Inappropriate Letter Spacing Check](en/letter_02)
+- [Link Elements Check](en/link_01)
+- [Inappropriate or Missing Li Element Check](en/list_01).
+- [List Items Check](en/list_02)
+- [Inappropriate List Items Check](en/list_03)
+- [Description List Elements Check](en/list_04)
+- [Inappropriate Description List Elements Check](en/list_05)
+- [Description List Elements Order Check](en/list_06).
+- [Inappropriate Description List Elements Order Check](en/list_07)
+- [List Item Check](en/listitem_01)
+- [Inappropriate List Item Check](en/listitem_02)
+- [Menu Item Accessible Name Check](en/menuitem_01)
+- [Missing Menu Item Accessible Name Check](en/menuitem_02).
+- [Inappropriate Refresh Meta Element Check](en/meta_01)
+- [Inappropriate Redirect Meta Element Check](en/meta_02)
+- [Refresh Meta Element Check](en/meta_03)
+- [Inappropriate Delaying Refresh Meta Element Check](en/meta_04)
+- [Viewport Meta Element Check](en/meta_05).
+- [Object Accessible Name Check](en/object_01)
+- [Missing Object Accessible Name](en/object_02)
+- [Orientation Restriction Check](en/orientation_01)
+- [Inappropriate Orientation Restriction Check](en/orientation_02)
+- [Role Value Check](en/role_01).
+- [Inappropriate Role Value Check](en/role_02)
+- [Inappropriate Scope Attribute Check](en/scope_01)
+- [Scrollable Element Check](en/scrollable_01)
+- [Inappropriate Scrollable Element Check](en/scrollable_02)
+- [SVG Accessible Name Check](en/svg_01).
+- [Missing SVG Accessible Name Check](en/svg_02)
+- [Inappropriate Table Caption Check](en/table_01)
+- [Missing Data Table Caption Check](en/table_02)
+- [Inappropriate Equal Table Caption And Summary Check](en/table_03)
+- [Inappropriate Nested Table Element Check](en/table_04).
+- [Missing Table Headers Check](en/table_05a)
+- [Missing Data Table Headers Attributes Check](en/table_06)
+- [Table Header Cells Check](en/table_07)
+- [Inappropriate Table Header Cells Check](en/table_08)
+- [Text Color Contrast Check](en/textC_01).
+- [Inappropriate Text Color Contrast Check](en/textC_02)
+- [Inappropriate Duplicate Page Title Check](en/title_01)
+- [Missing Page Title Check](en/title_02)
+- [Empty Page Title Check](en/title_03)
+- [Inappropriate Page Title Length Check](en/title_04).
+- [Inappropriate Page Title Characters Check](en/title_05)
+- [Page Title Check](en/title_06)
+- [Inappropriate Layout Measurement Value Check](en/values_01a)
+- [Layout Measurement Value Check](en/values_01b)
+- [Inappropriate Container Measurements Check](en/values_02a).
+- [Container Measurements Check](en/values_02b)
+- [Audio Accessible Alternative Check](en/video_01)
+- [Visual Content Accessible Alternative Check](en/video_02)
+- [W3C HTML Check](en/w3c_validator_01a)
+- [W3C Inappropriate HTML Check](en/w3c_validator_01b)
+- [Inappropriate Pop-Up Windows Check](en/win_01)
+- [Word Spacing Check](en/word_01)
+- [Inappropriate Word Spacing Check](en/word_02)
