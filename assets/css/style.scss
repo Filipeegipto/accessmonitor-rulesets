@@ -22,7 +22,7 @@
 
 // skip-link as Bootstrap properties
 
-.skip-link {
+p.skip-link a {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -34,7 +34,7 @@
   border: 0;
 }
 
-.skip-link:focus {
+p.skip-link a:focus {
   position: absolute;
   width: auto;
   height: auto;
