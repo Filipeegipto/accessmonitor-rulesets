@@ -22,7 +22,7 @@
         <p>{{ page.description | default: site.description | default: site.github.project_tagline }}</p>        
         <div id="banner">
           <span id="logo"></span>
-          <a href="#main" class="skip-link button">saltar para o conteúdo principal da página</a>
+          <a href="#main" class="skip-link"><mark></mark><strong>skip to content</strong></mark></a>
           <a href="{{ site.github.repository_url }}" class="button fork"><strong>View On GitHub</strong></a>
           {% if site.show_downloads %}
              <div class="downloads">
@@ -37,18 +37,18 @@
       </header>
      
       <div class="wrapper"> 
-        <main id="main">
+        <aside>
           <nav aria-label="main menu of AccessMonitor's Rules Set">
             {% if page.url != "/" %}
                <p><a href="../" class="backlink">back to index</a></p>           
             {% endif %}
             <ul></ul>        
       </nav>
-      <section>
+      </aside>
+      <main id="main">
         {{ content }}
 
-      </section>
-    </main>
+      </main>
       <footer>
         {% if site.github.is_project_page %}
           <p>Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
