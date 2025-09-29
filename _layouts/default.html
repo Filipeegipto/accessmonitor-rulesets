@@ -18,7 +18,7 @@
   <body>
 
       <header>
-        {% if page.id == "/accessmonitor-rulesets/" %}
+        {% if page.url == "/accessmonitor-rulesets/" %}
           <h1>{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
         {% else %}
           <p>{{ page.title | default: site.title | default: site.github.repository_name }}</p>
@@ -43,7 +43,7 @@
 
     <div class="wrapper">      
       <nav>
-        {% if page.id != "/accessmonitor-rulesets/" %}
+        {% if page.url != "/accessmonitor-rulesets/" %}
            <p><a href="../">back to index</a></p>           
         {% endif %}
         <ul></ul>
