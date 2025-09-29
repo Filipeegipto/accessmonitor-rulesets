@@ -18,11 +18,7 @@
   <body>
 
       <header>
-        {% if page.url == "/" %}
-          <h1>{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-        {% else %}
-          <p class="heading1">{{ page.title | default: site.title | default: site.github.repository_name }}</p>
-        {% endif %}        
+        <p class="heading1">{{ page.title | default: site.title | default: site.github.repository_name }}</p>
         <p>{{ page.description | default: site.description | default: site.github.project_tagline }}</p>
       </header>
 
@@ -47,7 +43,6 @@
            <p><a href="../">back to index</a></p>           
         {% endif %}
         <ul></ul>        
-        <p>page.url: {{ page.url }}</p>
       </nav>
       <section>
         {{ content }}
