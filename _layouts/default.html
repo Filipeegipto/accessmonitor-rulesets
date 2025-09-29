@@ -17,10 +17,10 @@
   </head>
   <body>
 
-      <header>
-        <p><a href="#main" class="skip-link">saltar para o conteúdo principal da página</a></p>
+      <header>        
         <p class="heading1">{{ page.title | default: site.title | default: site.github.repository_name }}</p>
         <p>{{ page.description | default: site.description | default: site.github.project_tagline }}</p>
+        <p><a href="#main" class="skip-link">saltar para o conteúdo principal da página</a></p>
         <div id="banner">
           <span id="logo"></span>
           <a href="{{ site.github.repository_url }}" class="button fork"><strong>View On GitHub</strong></a>
