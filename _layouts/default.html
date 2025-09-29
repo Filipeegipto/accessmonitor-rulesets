@@ -18,7 +18,7 @@
   <body>
 
       <header>
-        {% if page.id == "/index" %}
+        {% if page.id == "/Readme" %}
           <h1>{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
         {% else %}
           <p>{{ page.title | default: site.title | default: site.github.repository_name }}</p>
@@ -43,7 +43,9 @@
 
     <div class="wrapper">      
       <nav>
-        <p><a href="../">back to index</a></p>
+        {% if page.id != "/Readme" %}
+           <p><a href="../">back to index</a></p>           
+        {% endif %}
         <ul></ul>
       </nav>
       <section>
