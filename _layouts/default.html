@@ -20,7 +20,7 @@
       <header>
         <p class="heading1">{{ page.title | default: site.title | default: site.github.repository_name }}</p>
         <p>{{ page.description | default: site.description | default: site.github.project_tagline }}</p>
-      </header>
+      <!-- </header> -->
 
       <div id="banner">
         <span id="logo"></span>
@@ -36,8 +36,10 @@
           </div>
         {% endif %}
       </div><!-- end banner -->
-
-    <div class="wrapper">     
+      </header>
+     
+    <div class="wrapper"> 
+      <main>
       <nav>
         {% if page.url != "/" %}
            <p><a href="../">back to index</a></p>           
@@ -48,6 +50,7 @@
         {{ content }}
 
       </section>
+    </main>
       <footer>
         {% if site.github.is_project_page %}
           <p>Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
