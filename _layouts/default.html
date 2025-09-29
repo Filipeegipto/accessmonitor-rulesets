@@ -19,10 +19,10 @@
 
       <header>        
         <p class="heading1">{{ page.title | default: site.title | default: site.github.repository_name }}</p>
-        <p>{{ page.description | default: site.description | default: site.github.project_tagline }}</p>
-        <p><a href="#main" class="skip-link">saltar para o conteúdo principal da página</a></p>
+        <p>{{ page.description | default: site.description | default: site.github.project_tagline }}</p>        
         <div id="banner">
           <span id="logo"></span>
+          <a href="#main" class="skip-link button">saltar para o conteúdo principal da página</a>
           <a href="{{ site.github.repository_url }}" class="button fork"><strong>View On GitHub</strong></a>
           {% if site.show_downloads %}
              <div class="downloads">
