@@ -27,6 +27,14 @@ $(function() {
     event.preventDefault();
   });
 
+  // skip-link
+
+  $("p.skip-link").on("click", "a", function(event) {
+    var position = $($(this).attr("href")).offset().top - 190;
+    $("html, body").animate({scrollTop: position}, 400);
+  });
+  
+
   sectionHeight();
 
   $('img').on('load', sectionHeight);
