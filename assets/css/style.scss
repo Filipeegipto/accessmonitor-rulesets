@@ -35,10 +35,13 @@
 }
 
 .skip-link:focus {
-  position: static;
+  position: absolute;
   width: auto;
   height: auto;
-  margin: auto auto;
+  right: 100px;
+  top: 14px;
+  text-decoration: underline;
+  margin: auto;
   overflow: visible;
   clip: auto;
   white-space: normal;
