@@ -16,7 +16,7 @@
 }
 
 // underlined backlink
-.backlink {
+.xbacklink {
     text-decoration: underline;
 }
 
@@ -113,3 +113,10 @@ main {
 p a {
     text-decoration: underline
 }
+
+// font size and line height of the body
+
+body {
+    font: 16px/24px
+}
+
