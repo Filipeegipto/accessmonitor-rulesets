@@ -2,7 +2,7 @@
 
 AccessMonitor is an evaluation tool of web content accessibility guidelines according to the recomendation of the <a href="https://www.w3.org/TR/WCAG21/"><abbr title="World Wide Web Consortium">W3C</abbr>: <abbr title="Web Content Accessibility Guidelines, version 2.1">WCAG 2.1</abbr></a>. AccessMonitor implements the rules certified by the [ACT Rules Community Group](https://act-rules.github.io/rules/).
 
-This page contains the set of tests that are implemented in the AccessMonitor validator.
+**Last update: 30/09/2025** - This page contains the set of tests **(169 tests)** that are implemented in the AccessMonitor validator.
 
 ## Tests
 
