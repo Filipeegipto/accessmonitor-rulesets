@@ -107,3 +107,9 @@ main {
 #main {
   scroll-margin-top: 400px; /* altura do header fixo */
 }
+
+// Links underlined by default in the paragraphs
+
+p a {
+    text-decoration: underline
+}
